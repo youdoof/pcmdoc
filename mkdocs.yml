@@ -1,6 +1,18 @@
-site_name: My site
+site_name: PCM DOC
 site_url: https://example.com/
 repo_url: https://www.github.com/youdoof/pcmdoc
 repo_name: youdoof/pcmdoc
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+  features:
+    - content.code.copy
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
