@@ -1,7 +1,10 @@
 site_name: PCM DOC
-site_url: https://example.com/
+site_url: ""
 repo_url: https://www.github.com/youdoof/pcmdoc
 repo_name: youdoof/pcmdoc
+
+# edit_uri: ""
+
 theme:
   name: material
   palette:
@@ -11,6 +14,7 @@ theme:
       scheme: slate
   features:
     - content.code.copy
+    - content.action.view
 
 # Markdown Extensions
 markdown_extensions:

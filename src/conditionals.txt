@@ -2,7 +2,9 @@ and
 case
 caseElse
 else
+endSelect
 endif
+false
 if
 is
 or
