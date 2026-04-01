@@ -8,15 +8,61 @@ repo_name: youdoof/pcmdoc
 theme:
   name: material
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   features:
     - content.code.copy
     - content.action.view
+    - navigation.top
+    - navigation.path
+    - navigation.footer
 
 # Markdown Extensions
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.keys
   - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # Material for MkDocs Plugins
+
+
+plugins:
+  - privacy
+  - search
+
+extra:
+  consent:
+    title: Cookie Consent
+    description: >-
+      There are not many cookies being used here, save for GitHub information because the repository is shown.
+    cookies:
+      analytics:
+        name: GitHub
+        checked: false

@@ -12,10 +12,10 @@ description
 
 ## Parameters
 
-| Name | Type | Optional | Description          |
-| ---- | ---- | -------- | -------------------- |
-| name | type | optional | desc                 |
-| ...  | Any  | Yes      | Remaining arguments. |
+| Name | Type | Optional | Description         |
+| ---- | ---- | -------- | ------------------- |
+| name | type | optional | desc                |
+| ...  | Any  | Yes      | Remaining arguments |
 
 ## Return Value
 
@@ -23,11 +23,11 @@ returnType – returnDesc
 
 ## Notes
 
-* notes
+- notes
 
 ## See Also
 
-* [label](#anchor)
+- [label](#anchor)
 
 ## Examples
 
@@ -35,5 +35,4 @@ returnType – returnDesc
 example
 ```
 
-> **Deprecated** since Calypso deprecated.since  
-> deprecated.message
+> **Deprecated** since Calypso X.Y
