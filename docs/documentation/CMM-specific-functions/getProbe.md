@@ -1,14 +1,14 @@
-# functionName
+# getProbe
 
 ```pcm
-functionName()
+getProbe()
+getProbe(stylusName)
+getProbe(stylusName, plateName)
 ```
 
 ## Description
 
 description
-
-> Since Calypso X.Y
 
 ## Parameters
 
@@ -34,5 +34,3 @@ returnType – returnDesc
 ```pcm
 example
 ```
-
-> **Deprecated** since Calypso X.Y

@@ -1,12 +1,17 @@
-site_name: PCM DOC
+site_name: PCM Documentation
+site_description: Creating better PCM documentation, one function at a time.
 site_url: ""
 repo_url: https://www.github.com/youdoof/pcmdoc
 repo_name: youdoof/pcmdoc
 
 # edit_uri: ""
 
+copyright: <a href="#__consent">Change cookie settings</a>
+
 theme:
   name: material
+  icon:
+    logo: material/file-document
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -16,12 +21,16 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: black
+      accent: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: black
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
@@ -29,7 +38,7 @@ theme:
     - content.code.copy
     - content.action.view
     - navigation.top
-    - navigation.path
+    # - navigation.path
     - navigation.footer
 
 # Markdown Extensions
@@ -60,9 +69,4 @@ plugins:
 extra:
   consent:
     title: Cookie Consent
-    description: >-
-      There are not many cookies being used here, save for GitHub information because the repository is shown.
-    cookies:
-      analytics:
-        name: GitHub
-        checked: false
+    description: This website uses essential cookies to maintain your session and facilitate the connection to the documentation repository. No third-party tracking is used.
