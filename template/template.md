@@ -8,8 +8,6 @@ functionName()
 
 description
 
-> Since Calypso X.Y
-
 ## Parameters
 
 | Name | Type | Optional | Description         |
@@ -34,5 +32,3 @@ returnType – returnDesc
 ```pcm
 example
 ```
-
-> **Deprecated** since Calypso X.Y
