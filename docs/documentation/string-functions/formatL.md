@@ -33,6 +33,6 @@ _String_ - **rounded**, left-justified string of the given `number`
 foo = 1.234567
 
 display(formatL(foo))           // "1.2346
-display(formatL(foo, 10, 2))    // "       1.23"
+display(formatL(foo, 10, 2))    // "1.23       "
 display(formatL(foo, 6, 6))     // "1.234567"
 ```
